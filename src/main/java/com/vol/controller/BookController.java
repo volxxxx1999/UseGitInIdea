@@ -19,10 +19,4 @@ public class BookController {
         System.out.println("今天又摸鱼了，真好");
         return "{'什么时候':'能毕业'}";
     }
-
-    @PostMapping("/book")
-    public String insert(){
-        System.out.println("添加书籍");
-        return "";
-    }
 }
